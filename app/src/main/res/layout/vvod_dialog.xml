@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffffcc">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/title_text"
+        android:hint="Введите название"
+        android:padding="10dp"
+        android:maxLength="20"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/kolvo_text"
+        android:hint="Кол-во (в граммах)"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+        android:maxLength="40"
+        >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата порчи"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:focusable="auto"
+        android:scaleX="0.7"
+        android:scaleY="0.7" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/ziri_text"
+        android:hint="Кол-во жиров на 100 гр"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        >
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/belki_text"
+        android:hint="Кол-во белков на 100 гр"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        >
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/uglevodi_text"
+        android:hint="Кол-во углеводов на 100 гр"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        >
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/kkl_text"
+        android:hint="Кол-во килокалорий на 100 гр"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+        android:maxLength="15"
+        >
+    </EditText>
+
+    <Button
+        android:backgroundTint="#cc3177"
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Добавить"></Button>
+
+    <Button
+        android:backgroundTint="#cc3177"
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Назад"></Button>
+</LinearLayout>

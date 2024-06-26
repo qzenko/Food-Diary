@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffcc">
+
+    <CheckBox
+        android:id="@+id/checkBox_women2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ж"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <CheckBox
+        android:id="@+id/checkBox_male2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="М"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваш пол"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weight_text" />
+
+    <EditText
+        android:id="@+id/height_text"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:hint="Ваш рост"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text"></EditText>
+
+    <EditText
+        android:id="@+id/weight_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Ваш вес"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/years_text"></EditText>
+
+    <Button
+
+        android:id="@+id/button_active"
+        android:layout_width="201dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#ff3333"
+        android:text="Выберите ваш уровень активности"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_women2" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="204dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#cc3177"
+        android:text="Изменить"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_active"></Button>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#cc3177"
+        android:text="Назад"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"></Button>
+
+    <EditText
+        android:id="@+id/title_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Ваше имя"
+        android:maxLength="20"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></EditText>
+
+    <EditText
+        android:id="@+id/years_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Ваш возраст"
+        android:inputType="number"
+        android:maxLength="3"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/height_text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

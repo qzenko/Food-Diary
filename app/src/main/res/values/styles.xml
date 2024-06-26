@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="Widget.Theme.Working.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#ffffcc</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+</resources>
